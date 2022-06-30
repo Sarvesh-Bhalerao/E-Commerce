@@ -9,7 +9,7 @@ import CartDropdown from "../../cart-dropdown/cart-dropdown.component";
 import { CartContext } from "../../../context/cart-context";
 const Navigate = () => {
   const { currentUser } = useContext(UserContext);
-  console.log(currentUser);
+  // console.log(currentUser);
 
   // const signOutHandler = async () => {
   //   const res = await signOutUser();
