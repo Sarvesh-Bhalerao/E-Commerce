@@ -8,7 +8,7 @@ import CartIcon from "../../cart-icon/cart-icon.component";
 import CartDropdown from "../../cart-dropdown/cart-dropdown.component";
 import { CartContext } from "../../../context/cart-context";
 const Navigate = () => {
-  const { currentUser, setcurrentUser } = useContext(UserContext);
+  const { currentUser } = useContext(UserContext);
   console.log(currentUser);
 
   // const signOutHandler = async () => {
